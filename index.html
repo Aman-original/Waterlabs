@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Booking Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Hotel Booking Dashboard</h1>
+        <div class="date-filters">
+            <input type="date" id="startDate" />
+            <input type="date" id="endDate" />
+            <button id="filterBtn">Filter</button>
+        </div>
+
+        <div class="chart" id="chart1"></div> <!-- Time Series Chart -->
+        <div class="chart" id="chart2"></div> <!-- Column Chart -->
+        <div class="chart" id="sparkline1"></div> <!-- Sparkline 1 -->
+        <div class="chart" id="sparkline2"></div> <!-- Sparkline 2 -->
+    </div>
+</body>
+</html>
